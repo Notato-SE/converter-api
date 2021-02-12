@@ -44,7 +44,7 @@ app.get("/convert", (req, res) => {
     from: val.from,
     to: val.to,
     amount: val.amount.toString(),
-    converted: converted,
+    converted: val.converted,
     success: true,
   });
 });
